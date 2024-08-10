@@ -1,0 +1,86 @@
+/* ___________________ About Us section_______________ */
+
+.abouth3{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 800;
+    color: #828282;
+    margin: 50px 0px;
+    /* background-color: rgba(0,0,0,0.2); */
+}
+
+
+.about-us{
+        width: 100%;
+        height: 700px;
+        background-image: url(../assets/about.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        /* background-color: yellow; */
+    }
+
+
+    .about-us-container{
+        width: 100%;
+        /* max-width: 983px; */
+        height: 550px;
+        /* background-color: rgb(0, 0, 0, 0.4); */
+        text-align: center;
+        justify-content:center;
+        display: flex;
+        /* flex-direction: column; */
+        gap: 100px;
+        color: white;
+        
+    }
+
+    .about-us-item{
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        justify-content:center;
+        display: flex;
+        /* background-color: rgb(0, 0, 0, 0.4); */
+        margin: 100px 0px;
+        font-size: 16px;
+        }
+
+
+        .btn-smoll3{
+            font-size: 18px;
+            width: 180px;
+            height: 70px;
+            border: none;
+            border-radius: 59px;
+            background-color: white;
+            color: #48924F;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            /* box-shadow: 0 0 5px 5px #c3e6c5; */
+        }
+        
+    
+        
+        .btn-aria{
+            width: 100%;
+            height: 110rpx;
+            padding: 10px;
+            display:flex;
+            align-items: center;
+            justify-content:center;
+            /* background-color: rgba(0,0,0,0.9); */
+        }
+        
+        
+        .btn-smoll3:hover{
+            cursor: pointer;
+            /* background-color: rgb(0, 0, 0, 0.5); */
+            box-shadow: 0 0 5px 5px rgba(0,0,0,0.8);
+        }

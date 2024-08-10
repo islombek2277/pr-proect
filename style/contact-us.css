@@ -1,0 +1,89 @@
+.contact-us{
+    width: 100%;
+    height: 600px;
+    background-color: #f1eeee;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.input-box1{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgba(0,0,0,0.2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box2{
+    width: 788px;
+    height: 300px;
+    /* background-color: rgba(0,0,0,0.2); */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+
+.input{
+    width: 374px;
+    height: 266px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0,0,0,0.2); */
+}
+
+input{
+    width: 374px;
+    height: 56px;
+    border: none;
+    border-radius: 60px;
+    background-color: #9FDEA9;
+}
+
+.input button{
+    width: 168px;
+    height: 56px;
+    border: 2px solid #4DB96B;
+    border-radius: 60px;
+    margin-left: 100px;
+    color: #4DB96B;
+}
+
+
+.input button:hover{
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0 5px #c3e6c5;;
+}
+
+
+
+
+.contact{
+    width: 350px;
+    height: 150px;
+    /* background-color: #4DB96B; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0,0,0,0.2); */
+    margin: 40px;
+}
+
+.contact p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.contact i{
+    font-size: 20px;
+    color: #4DB96B;
+}
+
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: #324B29;
+}
